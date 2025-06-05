@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SINAVI | 시나비 공식 홈페이지</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans KR', sans-serif;
+      background-color: #fff;
+      color: #222;
+    }
+    header, section, footer {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    header {
+      background-color: #f2f2f2;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    nav a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #444;
+    }
+    section {
+      border-bottom: 1px solid #eee;
+    }
+    h2 {
+      color: #444;
+    }
+    .team-member {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .member {
+      width: 150px;
+      text-align: center;
+    }
+    .member img {
+      width: 100%;
+      border-radius: 100px;
+    }
+    .video-container iframe {
+      width: 100%;
+      height: 400px;
+    }
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      color: #777;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #333;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SINAVI</h1>
+    <p>국악 크로스오버 밴드 | Official Website</p>
+    <nav>
+      <a href="#about">소개</a>
+      <a href="#schedule">공연 일정</a>
+      <a href="#media">미디어</a>
+      <a href="#contact">연락처</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>팀 소개</h2>
+    <p>시나비는 전통 음악과 현대 사운드를 넘나드는 8인조 국악 크로스오버 밴드입니다. 한국의 소리와 세계의 리듬이 만나 새로운 음악을 창조합니다.</p>
+    <div class="team-member">
+      <div class="member">
+        <img src="https://via.placeholder.com/150" alt="팀원1" />
+        <p>최형욱 (서우)<br>음악감독/베이스</p>
+      </div>
+      <div class="member">
+        <img src="https://via.placeholder.com/150" alt="팀원2" />
+        <p>팀원 이름<br>악기</p>
+      </div>
+      <!-- 더 많은 멤버 추가 가능 -->
+    </div>
+  </section>
+
+  <section id="schedule">
+    <h2>공연 일정</h2>
+    <ul>
+      <li>2025.07.10 - 서울 국악의 전당</li>
+      <li>2025.08.03 - MU:CON 2025 쇼케이스</li>
+      <li>2025.09.21 - 부산 해운대 국악 페스티벌</li>
+    </ul>
+  </section>
+
+  <section id="media">
+    <h2>영상/음원</h2>
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <a class="button" href="/presskit/SINAVI_PRESSKIT.pdf" download>프레스킷 다운로드</a>
+  </section>
+
+  <section id="contact">
+    <h2>연락처 & SNS</h2>
+    <p>Email: sinavi.band@gmail.com</p>
+    <p>Instagram: <a href="https://instagram.com/sinavi.band" target="_blank">@sinavi.band</a></p>
+    <p>YouTube: <a href="https://www.youtube.com/@sinaviband" target="_blank">@sinaviband</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SINAVI. All rights reserved.</p>
+  </footer>
+</body>
+</html>
